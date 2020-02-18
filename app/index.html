@@ -59,26 +59,27 @@
       <section class="callback">
         <div class="container">
           <div class="callback__inner">
-            <h2 class="callback__title"></h2>
-            <div class="callback__form form">
+            <h2 class="callback__title">Заполните заявку и мы отправим вам коммерческие условия сразу по всем продуктам компании </h2>
+            <form class="callback__form form" action="">
               <div class="form__group">
-                <input class="form__field" type="text">
+                <input class="form__field" type="text" name="city" placeholder="Город">
               </div>
               <div class="form__group">
-                <input class="form__field" type="text">
+                <input class="form__field" type="text" name="name" placeholder="Имя *" required>
               </div>
               <div class="form__group">
-                <input class="form__field" type="text">
+                <input class="form__field" type="tel" name="phone" placeholder="Телефон *" required>
               </div>
               <div class="form__group">
-                <input class="form__field" type="text">
+                <input class="form__field" type="email" name="email" placeholder="E-mail">
               </div>
-              <div class="form__group">
-                <input class="form__checkbox" type="checkbox" id="agree">
-                <label for="agree">Я даю согласие на обработку персональных данных</label>
+              <div class="form__group form__group--checkbox">
+                <input class="form__checkbox" type="checkbox" name="agree" checked required id="agree">
+                <label class="form__label" for="agree">Я даю согласие на обработку персональных данных</label>
               </div>
-              <button class="form__submit"></button>
-            </div>
+              <button class="form__submit">Отправить</button>
+              <p class="form__result error">Успех</p>
+            </form>
           </div>
         </div>
       </section>
@@ -86,14 +87,18 @@
         <div class="container">
           <div class="footer__inner">
             <div class="footer__contacts contacts">
-              <div class="contacts__part"></div>
+              <div class="contacts__part">
+                <picture>
+                  <source srcset="img/logo-mobile.png" media="(max-width: 991px)"><img src="img/logo.png" alt="">
+                </picture>
+              </div>
               <div class="contacts__part">г. Москва <br>ул. Орджоникидзе, д. 11, стр. 11О, офис 805</div>
-              <div class="contacts__part">+7 495 927 0 729 / +7 926 556 5498 <br>Mail: info@bon-l.ru </div>
-              <div class="contacts__part">ИНН 7714914563 / ОГРН 1137746793271 <br>Политика конфиденциальности</div>
+              <div class="contacts__part"><a href="tel:+7 495 927 0 729">+7 495 927 0 729</a> / <a href="tel:+7 926 556 5498">+7 926 556 5498</a> <br>Mail: <a href="mailto:info@bon-l.ru">info@bon-l.ru </a></div>
+              <div class="contacts__part">ИНН 7714914563 / ОГРН 1137746793271 <br> <a href="">Политика конфиденциальности</a></div>
             </div>
             <div class="footer__copy copy">
-              <div class="copy__part">Copyright 2015, PMG - All Rights Reserved. ООО "ПРОФМЕДГРУПП" является официальным обладателем ТМ PMG GROUP. Обращаем ваше внимание, что вся информация, включая цены, предоставлена для ознакомления и не является публичной офертой (ст. 435 ГК РФ, cт. 437 ГК РФ). Для получения более детальных консультаций по услугам и их стоимости обращайтесь по указанным на сайте номерам телефонов. </div>
-              <div class="copy__part">Материалы, размещенные на данной странице (сайте), носят информационный характер и предназначены для образовательных целей. Посетители сайта не должны использовать их в качестве медицинских рекомендаций. Перед использованием необходимо получить консультацию специалиста по оказываемым услугам и возможным противопоказаниям.</div>
+              <p class="copy__part">Copyright 2015, PMG - All Rights Reserved. ООО "ПРОФМЕДГРУПП" является официальным обладателем ТМ PMG GROUP. Обращаем ваше внимание, что вся информация, включая цены, предоставлена для ознакомления и не является публичной офертой (ст. 435 ГК РФ, cт. 437 ГК РФ). Для получения более детальных консультаций по услугам и их стоимости обращайтесь по указанным на сайте номерам телефонов. </p>
+              <p class="copy__part">Материалы, размещенные на данной странице (сайте), носят информационный характер и предназначены для образовательных целей. Посетители сайта не должны использовать их в качестве медицинских рекомендаций. Перед использованием необходимо получить консультацию специалиста по оказываемым услугам и возможным противопоказаниям.</p>
             </div>
           </div>
         </div>
