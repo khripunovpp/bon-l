@@ -6,7 +6,14 @@ html
 		title Эстетическая и инъекционная косметология
 		meta(http-equiv='X-UA-Compatible', content='IE=edge')
 		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-		link(rel='shortcut icon', href='img/favicon.ico', type='image/x-icon')
+		meta(name='theme-color', content='#DBE8FF')
+		meta(name='msapplication-navbutton-color', content='#DBE8FF')
+		meta(name='apple-mobile-web-app-status-bar-style', content='#DBE8FF')
+		meta(name='apple-mobile-web-app-title', content='Bon-L')
+		link(rel='apple-touch-startup-image', href='img/favicon.png')
+		link(rel='apple-touch-icon', sizes="108x108", href='img/favicon.png')
+		link(rel='apple-touch-icon', href='img/favicon.png')
+		link(rel='icon', href='img/favicon.png', type='image/png')
 		link(rel='stylesheet', href='css/fonts.css')
 		link(rel='stylesheet', href='css/style.css')
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
@@ -44,6 +51,7 @@ html
 						h2.video__title Приветственное видео от генерального директора
 						.video__player.player
 							.player__poster
+							.player__video
 							button.player__play
 							p.player__sign #[strong Фёдорова Анна] Генеральный директор группы компаний «Bon-L Group» 
 
@@ -64,7 +72,7 @@ html
 								input(type="checkbox", name="agree", checked, required).form__checkbox#agree
 								label(for="agree").form__label Я даю согласие на обработку персональных данных
 							button.form__submit Отправить
-							p.form__result.error Успех
+							p.form__result
 
 			footer.footer
 				.container
@@ -81,4 +89,5 @@ html
 							p.copy__part Copyright 2015, PMG - All Rights Reserved. ООО "ПРОФМЕДГРУПП" является официальным обладателем ТМ PMG GROUP. Обращаем ваше внимание, что вся информация, включая цены, предоставлена для ознакомления и не является публичной офертой (ст. 435 ГК РФ, cт. 437 ГК РФ). Для получения более детальных консультаций по услугам и их стоимости обращайтесь по указанным на сайте номерам телефонов. 
 							p.copy__part Материалы, размещенные на данной странице (сайте), носят информационный характер и предназначены для образовательных целей. Посетители сайта не должны использовать их в качестве медицинских рекомендаций. Перед использованием необходимо получить консультацию специалиста по оказываемым услугам и возможным противопоказаниям.
 		
+		script(src="https://www.youtube.com/iframe_api")
 		script(src="js/common.js")
