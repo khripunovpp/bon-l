@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "DINPro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/DINPro.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro.woff") format("woff"), url("../fonts/DINPro.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DINPro-CondensedLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/DINPro-CondensedLight.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedLight.woff") format("woff"), url("../fonts/DINPro-CondensedLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DINPro-CondensedMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/DINPro-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedMedium.woff") format("woff"), url("../fonts/DINPro-CondensedMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DINPro-CondensedRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/DINPro-CondensedRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedRegular.woff") format("woff"), url("../fonts/DINPro-CondensedRegular.ttf") format("truetype");
+}
